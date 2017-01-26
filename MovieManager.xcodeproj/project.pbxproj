@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		412887611E26C55600D6E96C /* TMDBMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412887601E26C55600D6E96C /* TMDBMovie.swift */; };
+		412887631E26CD1300D6E96C /* TMDBConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412887621E26CD1300D6E96C /* TMDBConvenience.swift */; };
+		412887651E26D68300D6E96C /* TMDBAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412887641E26D68300D6E96C /* TMDBAuthViewController.swift */; };
+		412887671E270EBF00D6E96C /* GCDBlackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412887661E270EBF00D6E96C /* GCDBlackBox.swift */; };
 		418CA1111E267D260074E5B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CA1101E267D260074E5B0 /* AppDelegate.swift */; };
-		418CA1131E267D260074E5B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CA1121E267D260074E5B0 /* ViewController.swift */; };
+		418CA1131E267D260074E5B0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CA1121E267D260074E5B0 /* LoginViewController.swift */; };
 		418CA1161E267D260074E5B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418CA1141E267D260074E5B0 /* Main.storyboard */; };
 		418CA1181E267D260074E5B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418CA1171E267D260074E5B0 /* Assets.xcassets */; };
 		418CA11B1E267D260074E5B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418CA1191E267D260074E5B0 /* LaunchScreen.storyboard */; };
 		418CA1261E267D260074E5B0 /* MovieManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CA1251E267D260074E5B0 /* MovieManagerTests.swift */; };
 		418CA1311E267D260074E5B0 /* MovieManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CA1301E267D260074E5B0 /* MovieManagerUITests.swift */; };
+		418CA1411E267EDE0074E5B0 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CA1401E267EDE0074E5B0 /* MovieDetailViewController.swift */; };
+		418CA1431E2682040074E5B0 /* MoviePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CA1421E2682040074E5B0 /* MoviePickerViewController.swift */; };
+		418CA1451E2682140074E5B0 /* WatchlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CA1441E2682140074E5B0 /* WatchlistViewController.swift */; };
+		418CA1471E2682210074E5B0 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CA1461E2682210074E5B0 /* FavoritesViewController.swift */; };
+		418CA14C1E2682EF0074E5B0 /* TMDBClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CA14B1E2682EF0074E5B0 /* TMDBClient.swift */; };
+		418CA14E1E2684160074E5B0 /* TMDBConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CA14D1E2684160074E5B0 /* TMDBConfig.swift */; };
+		418CA1501E26955D0074E5B0 /* TMDBConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CA14F1E26955D0074E5B0 /* TMDBConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		412887601E26C55600D6E96C /* TMDBMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBMovie.swift; sourceTree = "<group>"; };
+		412887621E26CD1300D6E96C /* TMDBConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBConvenience.swift; sourceTree = "<group>"; };
+		412887641E26D68300D6E96C /* TMDBAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBAuthViewController.swift; sourceTree = "<group>"; };
+		412887661E270EBF00D6E96C /* GCDBlackBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDBlackBox.swift; sourceTree = "<group>"; };
 		418CA10D1E267D260074E5B0 /* MovieManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		418CA1101E267D260074E5B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		418CA1121E267D260074E5B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		418CA1121E267D260074E5B0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		418CA1151E267D260074E5B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		418CA1171E267D260074E5B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		418CA11A1E267D260074E5B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +62,13 @@
 		418CA12C1E267D260074E5B0 /* MovieManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		418CA1301E267D260074E5B0 /* MovieManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManagerUITests.swift; sourceTree = "<group>"; };
 		418CA1321E267D260074E5B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418CA1401E267EDE0074E5B0 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		418CA1421E2682040074E5B0 /* MoviePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviePickerViewController.swift; sourceTree = "<group>"; };
+		418CA1441E2682140074E5B0 /* WatchlistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchlistViewController.swift; sourceTree = "<group>"; };
+		418CA1461E2682210074E5B0 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		418CA14B1E2682EF0074E5B0 /* TMDBClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBClient.swift; sourceTree = "<group>"; };
+		418CA14D1E2684160074E5B0 /* TMDBConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBConfig.swift; sourceTree = "<group>"; };
+		418CA14F1E26955D0074E5B0 /* TMDBConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +119,12 @@
 		418CA10F1E267D260074E5B0 /* MovieManager */ = {
 			isa = PBXGroup;
 			children = (
+				418CA1481E2682840074E5B0 /* Model */,
+				418CA13F1E267E820074E5B0 /* Assets */,
+				418CA13E1E267E710074E5B0 /* Controller */,
 				418CA1101E267D260074E5B0 /* AppDelegate.swift */,
-				418CA1121E267D260074E5B0 /* ViewController.swift */,
-				418CA1141E267D260074E5B0 /* Main.storyboard */,
-				418CA1171E267D260074E5B0 /* Assets.xcassets */,
-				418CA1191E267D260074E5B0 /* LaunchScreen.storyboard */,
 				418CA11C1E267D260074E5B0 /* Info.plist */,
+				412887661E270EBF00D6E96C /* GCDBlackBox.swift */,
 			);
 			path = MovieManager;
 			sourceTree = "<group>";
@@ -123,6 +145,57 @@
 				418CA1321E267D260074E5B0 /* Info.plist */,
 			);
 			path = MovieManagerUITests;
+			sourceTree = "<group>";
+		};
+		418CA13E1E267E710074E5B0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				418CA1121E267D260074E5B0 /* LoginViewController.swift */,
+				418CA1401E267EDE0074E5B0 /* MovieDetailViewController.swift */,
+				418CA1421E2682040074E5B0 /* MoviePickerViewController.swift */,
+				418CA1441E2682140074E5B0 /* WatchlistViewController.swift */,
+				418CA1461E2682210074E5B0 /* FavoritesViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		418CA13F1E267E820074E5B0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				418CA1141E267D260074E5B0 /* Main.storyboard */,
+				418CA1171E267D260074E5B0 /* Assets.xcassets */,
+				418CA1191E267D260074E5B0 /* LaunchScreen.storyboard */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		418CA1481E2682840074E5B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				418CA1491E2682920074E5B0 /* Clients */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		418CA1491E2682920074E5B0 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				418CA14A1E26829E0074E5B0 /* TMDB */,
+			);
+			name = Clients;
+			sourceTree = "<group>";
+		};
+		418CA14A1E26829E0074E5B0 /* TMDB */ = {
+			isa = PBXGroup;
+			children = (
+				418CA14B1E2682EF0074E5B0 /* TMDBClient.swift */,
+				418CA14D1E2684160074E5B0 /* TMDBConfig.swift */,
+				418CA14F1E26955D0074E5B0 /* TMDBConstants.swift */,
+				412887601E26C55600D6E96C /* TMDBMovie.swift */,
+				412887621E26CD1300D6E96C /* TMDBConvenience.swift */,
+				412887641E26D68300D6E96C /* TMDBAuthViewController.swift */,
+			);
+			name = TMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +335,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				418CA1131E267D260074E5B0 /* ViewController.swift in Sources */,
+				418CA1501E26955D0074E5B0 /* TMDBConstants.swift in Sources */,
+				418CA14E1E2684160074E5B0 /* TMDBConfig.swift in Sources */,
+				418CA1131E267D260074E5B0 /* LoginViewController.swift in Sources */,
+				412887651E26D68300D6E96C /* TMDBAuthViewController.swift in Sources */,
+				412887611E26C55600D6E96C /* TMDBMovie.swift in Sources */,
+				418CA14C1E2682EF0074E5B0 /* TMDBClient.swift in Sources */,
+				418CA1451E2682140074E5B0 /* WatchlistViewController.swift in Sources */,
+				418CA1411E267EDE0074E5B0 /* MovieDetailViewController.swift in Sources */,
 				418CA1111E267D260074E5B0 /* AppDelegate.swift in Sources */,
+				418CA1471E2682210074E5B0 /* FavoritesViewController.swift in Sources */,
+				412887631E26CD1300D6E96C /* TMDBConvenience.swift in Sources */,
+				418CA1431E2682040074E5B0 /* MoviePickerViewController.swift in Sources */,
+				412887671E270EBF00D6E96C /* GCDBlackBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +598,7 @@
 				418CA1371E267D260074E5B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		418CA1381E267D260074E5B0 /* Build configuration list for PBXNativeTarget "MovieManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +607,7 @@
 				418CA13A1E267D260074E5B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		418CA13B1E267D260074E5B0 /* Build configuration list for PBXNativeTarget "MovieManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +616,7 @@
 				418CA13D1E267D260074E5B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
